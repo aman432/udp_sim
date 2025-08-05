@@ -47,7 +47,7 @@ If Go is installed correctly, you should see the version number printed in the t
 ### 2. Clone the Repository
 
 ```sh
-git clone https://github.com/amanbharadwajrzp/udp_sim.git
+git clone https://github.com/aman432/udp_sim.git
 cd udp_sim
 ```
 ### 3. Download Dependencies
