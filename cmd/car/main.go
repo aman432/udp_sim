@@ -36,7 +36,7 @@ func main() {
 		Encoder: encoder,
 	}
 	car := internal.NewCar(*id, pose, velocity, sender)
-	car.Controller = controller // Inject handler for receiver
+	car.Controller = controller
 	go receiver.Start()
 	for {
 		car.Tick()
